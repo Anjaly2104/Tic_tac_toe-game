@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  padding: 15px;
+  grid-gap: 15px;
+}
+.box{
+  height: 100px;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 50%;
+
+  
+}
+.box:hover{
+  background-color: orangered;
+
+  
+}
+.icons{
+  font-size: 35px;
+  color: #ffffff;
+}
+button{
+  background-color:yellow;
+  color: red;
+  text-transform: uppercase ;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+
+}
+
+button:hover{
+  background-color: purple;
+  color: white;
+  
+
+}
+body{
+ background-color:indigo;
+}
